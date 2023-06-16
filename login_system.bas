@@ -26,12 +26,14 @@ If username = users(i) And password = "pass123" Then
 
 Print "Login successful!"
 
-Exit For
+else
+  
+Print "Invalid username or password. Please try again"
+  
+
 
 End If
 
-Next i
 
-Print "Invalid username or password. Please try again"
 
 End
